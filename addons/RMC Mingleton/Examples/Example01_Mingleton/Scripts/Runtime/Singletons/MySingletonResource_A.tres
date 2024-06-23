@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="MySingletonResource" load_steps=2 format=3 uid="uid://dajgb1afiwrg0"]
+
+[ext_resource type="Script" path="res://addons/RMC Mingleton/Examples/Example01_Mingleton/Scripts/Runtime/Singletons/MySingletonResource.cs" id="1_46mwv"]
+
+[resource]
+script = ExtResource("1_46mwv")
+Health = 1
+Attack = 2
+Damage = 3

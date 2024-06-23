@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bq2rsbkshmwao"]
+
+[ext_resource type="Script" path="res://addons/RMC Mingleton/Examples/Example01_Mingleton/Scripts/Runtime/MingletonExample.cs" id="1_nhbse"]
+[ext_resource type="Script" path="res://addons/RMC Mingleton/Examples/Example01_Mingleton/Scripts/Runtime/Singletons/MySingletonNodeWithReady.cs" id="2_sib0g"]
+
+[node name="MingletonExample" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nhbse")
+
+[node name="MySingletonNodeWithReady" type="Node" parent="."]
+script = ExtResource("2_sib0g")
