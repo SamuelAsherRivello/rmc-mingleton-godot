@@ -55,7 +55,7 @@ Create your projects with confidence, performance, and scalability.
 
 ### Example01_Mingleton
 
-| Screenshot | Diagram |
+| Sample Subclass | Mingleton API |
 |---|---|
 | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot01.png" width="250"/> | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot02.png" width="250"/> |
 
