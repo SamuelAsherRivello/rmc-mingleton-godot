@@ -17,11 +17,23 @@ Create your projects with confidence, performance, and scalability.
 
 * **Does NOT require** any autoload, interface, nor baseclass. 
 * **Compatible with** nodes, resources, and classes.
-* **Compatible with** GDScript, C#, and C++.
+* **Compatible with** GDScript, C#, and C++
 
 <BR>
+<BR>
 
-**Getting Started**
+# Table of Contents
+
+1. [Getting Started](#getting-started)
+1. [Examples](#examples)
+1. [Resources](#resources)
+1. [Credits](#credits)
+
+
+<BR>
+<BR>
+
+## Getting Started
 
 1. Download this repo (*.zip or *.git)
 1. Save repo as `[RepoName]`
@@ -30,7 +42,8 @@ Create your projects with confidence, performance, and scalability.
 1. Complete the `Prerequisites` steps from [Godot C# Basics](https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/c_sharp_basics.html)
 1. Create/open folder `[ProjectName]/addons/`
 1. Install any dependencies
-    * (None, yet)
+    * **Optional**: [gdUnit4](https://github.com/MikeSchulze/gdUnit4) - Add if you want to run RMC's included unit tests. Project compiles with or without this plugin
+    * **Required**: [rmc-core-godot](https://github.com/SamuelAsherRivello/rmc-core-godot/) - Project requires this core functionality
 1. Copy folder from `[RepoName]/addons/[PluginName]` to `[ProjectName]/addons/[PluginName]`
 1. Create the C# Solution via `Godot Menu → Project → Tools → C# → Create C# Solution`
 1. Build the C# Solution via (🔨) Icon in upper right of editor (or Control-B)
@@ -38,35 +51,29 @@ Create your projects with confidence, performance, and scalability.
 1. Enjoy!
 
 <BR>
-
-# Table of Contents
-
-1. [Samples](#samples)
-1. [Credits](#credits)
-
 <BR>
 
----
-
-<BR>
-
-## Samples
+## Examples
 
 ### Example01_Mingleton
 
-| Screenshot | Diagram |
+| Sample Subclass | Mingleton API |
 |---|---|
-| <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot01.png" width="250"/> | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot02.png" width="250"/> |
+| <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot01.png" width="300"/> | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot02.png" width="300"/> |
 
 <BR>
-
----
-
 <BR>
 
+## Resources
 
+* Samuel Asher Rivello's Godot Portfolio - <a href="http://www.samuelasherrivello.com/best-practices">Godot — Articles, Repos, Tips</a>
+* Samuel Asher Rivello's Medium Article - <a href="https://sam-16930.medium.com/unity-project-structure-a694792cefed">Unity — Project Structure Best Practices</a>
+* Samuel Asher Rivello's Medium Article - <a href="https://sam-16930.medium.com/coding-standards-in-c-39aefee92db8">Unity — C# Coding Standards</a>
 
-### Credits
+<BR>
+<BR>
+
+## Credits
 
 **Creator**
 
