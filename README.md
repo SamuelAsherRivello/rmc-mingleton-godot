@@ -26,6 +26,7 @@ Create your projects with confidence, performance, and scalability.
 
 1. [Getting Started](#getting-started)
 1. [Examples](#examples)
+1. [Theory](#theory)
 1. [Resources](#resources)
 1. [Credits](#credits)
 
@@ -60,6 +61,15 @@ Create your projects with confidence, performance, and scalability.
 | Sample Subclass | Mingleton API |
 |---|---|
 | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot01.png" width="300"/> | <img src="./addons/RMC Mingleton/Examples/Example01_Mingleton/Documentation/Screenshot02.png" width="300"/> |
+
+<BR>
+<BR>
+
+## Theory
+
+<img src="./addons/RMC Mingleton/Library/Documentation/Singleton.png" width = "600" />
+
+The [Singleton](https://refactoring.guru/design-patterns/singleton) is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 <BR>
 <BR>
