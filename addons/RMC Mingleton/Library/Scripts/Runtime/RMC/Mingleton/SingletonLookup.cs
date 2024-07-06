@@ -35,7 +35,7 @@ namespace RMC.Mingletons
 
             if (_singletons[type].ContainsKey(key))
             {
-                _logger.PrintErr($"AddSingleton() Type = '{type.Name}', Key = '{key}'.");
+                _logger.PrintErr($"AddSingleton() failed. Already has Type = '{type.Name}' for Key = '{key}'.");
             }
             else
             {
